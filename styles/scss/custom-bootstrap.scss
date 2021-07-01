@@ -1,0 +1,49 @@
+/*!
+ * Bootstrap v5.0.2 (https://getbootstrap.com/)
+
+  Note: Include or exlude any bootstrap files that you want.
+*/
+
+// Configuration
+@import "../../libraries/bootstrap5/scss/functions";
+@import "../../libraries/bootstrap5/scss/variables";
+@import "../../libraries/bootstrap5/scss/mixins";
+@import "../../libraries/bootstrap5/scss/utilities";
+
+// Layout & components
+@import "../../libraries/bootstrap5/scss/root";
+@import "../../libraries/bootstrap5/scss/reboot";
+@import "../../libraries/bootstrap5/scss/type";
+@import "../../libraries/bootstrap5/scss/images";
+@import "../../libraries/bootstrap5/scss/containers";
+@import "../../libraries/bootstrap5/scss/grid";
+@import "../../libraries/bootstrap5/scss/tables";
+@import "../../libraries/bootstrap5/scss/forms";
+@import "../../libraries/bootstrap5/scss/buttons";
+@import "../../libraries/bootstrap5/scss/transitions";
+@import "../../libraries/bootstrap5/scss/dropdown";
+@import "../../libraries/bootstrap5/scss/button-group";
+@import "../../libraries/bootstrap5/scss/nav";
+@import "../../libraries/bootstrap5/scss/navbar";
+@import "../../libraries/bootstrap5/scss/card";
+// @import "../../libraries/bootstrap5/scss/accordion";
+// @import "../../libraries/bootstrap5/scss/breadcrumb";
+// @import "../../libraries/bootstrap5/scss/pagination";
+@import "../../libraries/bootstrap5/scss/badge";
+@import "../../libraries/bootstrap5/scss/alert";
+// @import "../../libraries/bootstrap5/scss/progress";
+// @import "../../libraries/bootstrap5/scss/list-group";
+// @import "../../libraries/bootstrap5/scss/close";
+@import "../../libraries/bootstrap5/scss/toasts";
+@import "../../libraries/bootstrap5/scss/modal";
+@import "../../libraries/bootstrap5/scss/tooltip";
+// @import "../../libraries/bootstrap5/scss/popover";
+// @import "../../libraries/bootstrap5/scss/carousel";
+// @import "../../libraries/bootstrap5/scss/spinners";
+// @import "../../libraries/bootstrap5/scss/offcanvas";
+
+// Helpers
+@import "../../libraries/bootstrap5/scss/helpers";
+
+// Utilities
+@import "../../libraries/bootstrap5/scss/utilities/api";
