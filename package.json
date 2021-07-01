@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/MehdiKhoshnevisz/pure-template/issues"
   },
-  "homepage": "https://github.com/MehdiKhoshnevisz/pure-template#readme"
+  "homepage": "https://github.com/MehdiKhoshnevisz/pure-template#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
 }
