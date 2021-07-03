@@ -1,0 +1,28 @@
+/*  --- Normal font --- */
+@font-face {
+  font-family: BonaNova;
+  src: url('../fonts/BonaNova/BonaNova-Regular.ttf');
+
+  /* 
+    Here’s the deepest level of support, including all of the font file formats:
+  */
+
+  // src: url('../fonts/BonaNova/BonaNova-Regular.eot?#iefix') format('embedded-opentype'),
+  //   url('../fonts/BonaNova/BonaNova-Regular.woff2') format('woff2'),
+  //   url('../fonts/BonaNova/BonaNova-Regular.woff') format('woff'),
+  //   url('../fonts/BonaNova/BonaNova-Regular.ttf') format('truetype');
+}
+
+/* --- Bold font face --- */
+@font-face {
+  font-family: BonaNova;
+  src: url('../fonts/BonaNova/BonaNova-Bold.ttf');
+  font-weight: bold;
+}
+
+/* --- Italic font --- */
+@font-face {
+  font-family: BonaNova;
+  src: url('../fonts/BonaNova/BonaNova-Italic.ttf');
+  font-style: italic;
+}
