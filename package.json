@@ -6,7 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "node-sass --watch styles/scss/main.scss public/styles/main.css --output-style",
-    "scss-min": "node-sass --watch styles/scss/main.scss public/styles/main-min.css --output-style compressed"
+    "scss-min": "node-sass --watch styles/scss/main.scss public/styles/main-min.css --output-style compressed",
+    "postcss": "postcss public/styles/main.css --replace --use autoprefixer",
+    "build": "node-sass styles/scss/main.scss public/styles/main.css --output-style compressed && postcss public/styles/main.css --replace --use autoprefixer",
+    "dev": "node-sass --watch styles/scss/main.scss public/styles/main.css --output-style compressed && postcss public/styles/main.css --watch --replace --use autoprefixer --watch"
   },
   "repository": {
     "type": "git",
@@ -27,5 +30,9 @@
   "homepage": "https://github.com/MehdiKhoshnevisz/pure-template#readme",
   "dependencies": {
     "node-sass": "^6.0.1"
+  },
+  "devDependencies": {
+    "postcss": "^8.3.5",
+    "postcss-cli": "^8.3.1"
   }
 }
