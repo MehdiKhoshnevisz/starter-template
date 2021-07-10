@@ -1,6 +1,6 @@
 # Starter Template
 
-Starter Template is a simple and cocked project for start fast developing your projects with **HTM**L, **CSS**, **Sass**, and **Bootstrap5**.
+Starter Template is a simple and cocked project for start developing your projects with **HTM**L, **CSS**, **Sass**, and **Bootstrap5**.
 
   - Install dependecies
   - Watch your changes
