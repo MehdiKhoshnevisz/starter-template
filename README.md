@@ -1,6 +1,6 @@
 # Starter Template
 
-Starter Template is a simple and cooked project for start developing your projects with **HTM**L, **CSS**, **Sass**, and **Bootstrap5**.
+Starter Template is a simple and cooked structure for start developing your projects with **HTM**L, **CSS**, **Sass**, and **Bootstrap5**.
 
   - Install dependecies
   - Watch your changes
@@ -13,7 +13,7 @@ We used some tools to work properly and easily:
 
 * [Bootstrap5](https://getbootstrap.com/) - Bootstrap for your styles
 * [Sass](https://sass-lang.com/) - CSS with superpowers!
-* [gulp](https://gulpjs.com/) - Automate your worlflow
+* [gulp](https://gulpjs.com/) - Automate your workflow
 
 
 ### Installation
