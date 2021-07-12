@@ -20,15 +20,21 @@ We used some tools to work properly and easily:
 
 It requires [Node.js](https://nodejs.org/) v14+ to run.
 
-Install the dependencies and devDependencies and start the server.
+Install the dependencies and devDependencies.
 
 ```sh
 $ npm install
 $ npm run dev
 ```
 
+To watch changes:
+```sh
+$ npm run watch
+```
+
 #### Building for source
 For production release:
+
 ```sh
 $ npm run build
 ```
@@ -42,4 +48,4 @@ Want to contribute? Great!
  4. **Push** your work back up to your fork
  5. Submit a **Pull request** so that we can review your changes
  
-NOTE: Be sure to merge the latest from "upstream" before making a pull request!
+> NOTE: Be sure to merge the latest from "upstream" before making a pull request!
